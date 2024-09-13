@@ -1,0 +1,474 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 35px;
+    background: rgb(233, 124, 141);
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    left: 10px;
+    margin-left: 10px;
+}
+
+.noor {
+    font-size: 12px;
+    color: white;
+}
+
+.mall {
+    font-size: 25px;
+    color: blue;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    gap: 40px;
+}
+
+.search {
+    height: 25px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.size-6 {
+    height: 20px;
+}
+
+@media only screen and (max-width: 850px) {
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background: rgb(233, 124, 141);
+    }
+}
+
+.box-1 {
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background: linear-gradient(to bottom, #B5C9FF, #FFA9DC);
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    padding: 10px 20px;
+}
+
+
+
+.collection {
+    font-size: 6em;
+    font-weight: 1000;
+    color: black;
+}
+
+.explore {
+    font-size: 4em;
+    font-weight: 800;
+    color: white;
+}
+
+.child {
+    position: relative;
+}
+
+.get-start {
+    height: 32px;
+    width: 140px;
+    font-size: 15px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 7px 17px;
+    border: 1px solid black;
+    background-position: center;
+    margin-left: 180px;
+}
+
+@media only screen and (max-width: 850px) {
+    .box-1 {
+        flex-direction: column;
+
+    }
+
+    .child {
+        width: 400px;
+    }
+}
+
+.box-2 {
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background: linear-gradient(to bottom, #B5C9FF, #FFA9DC);
+}
+
+.white-box {
+    position: absolute;
+    margin: 40px 330px;
+    height: 100px;
+    width: 110vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.truck {
+    height: 40px;
+    color: rgb(88, 211, 88);
+    left: 6px;
+}
+
+.order {
+    font-size: 12px;
+    color: #888282;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.box-two {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 360px;
+    gap: 30px;
+}
+
+.sky {
+    height: 200px;
+    width: 310px;
+    background-color: rgb(0, 187, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.yellow {
+    height: 200px;
+    width: 310px;
+    background-color: rgb(250, 250, 42);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.up-to {
+    font-size: 12px;
+    color: #888282;
+}
+
+.sp-yl {
+    color: yellow;
+}
+
+.sp-gr {
+    color: green;
+}
+
+.get-shop {
+    height: 32px;
+    width: 140px;
+    font-size: 15px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 7px 37px;
+    border: 1px solid black;
+    background-position: center;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 850px) {
+    .box-two {
+        flex-direction: column;
+    }
+}
+
+.baby-faction {
+    font-size: 4em;
+    position: absolute;
+    margin-top: 290px;
+    left: 10px;
+}
+
+.box-3 {
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background: linear-gradient(to bottom, #B5C9FF, #FFA9DC);
+}
+
+
+.parallelogram {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    transform: skew(-20deg);
+    margin: -10px 250px;
+    padding: 10px;
+}
+
+.sale {
+    font-size: 3em;
+    text-align: center;
+}
+
+.feb {
+    font-size: 20px;
+    color: green;
+    margin-left: 18px;
+
+}
+
+.chil-2 {
+    position: relative;
+    margin-left: 640px;
+    margin-top: -0;
+}
+
+.shop-now {
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    height: 40px;
+    width: 160px;
+    background: green;
+    color: white;
+    border-radius: 30px;
+    margin: 120px 250px;
+}
+
+#all-1 li {
+    background: rgb(206, 203, 203);
+    padding: 5px 15px;
+    border-radius: 25px;
+    border: 1px solid black;
+    transition: .5s;
+}
+
+#all-1 li:hover,
+#all-1 .active {
+    background-color: yellow;
+}
+
+.box-4{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background: linear-gradient(to bottom, #B5C9FF, #FFA9DC);
+}
+
+.box-5{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background: linear-gradient(to bottom, #B5C9FF, #FFA9DC);
+}
+
+.box-6{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background: linear-gradient(to bottom, #B5C9FF, #FFA9DC);
+}
+
+ footer {
+        background-color: transparent;
+        color: #fff;
+        padding: 20px 0;
+    }
+    .footer-container {
+        line-height: 2;
+        display: flex;
+        justify-content: space-around;
+        max-width: 1200px;
+        margin: 190px auto;
+    }
+    .footer-section {
+        flex: 1;
+        padding: 20px;
+    }
+
+    .footer-section p{
+        color: black;
+    }
+    
+    .footer-section .pra{
+        color: white;
+    }
+
+    .foot {
+        margin-bottom: 0;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    .footer-bottom p {
+        margin-bottom: -0;
+        font-size: 14px;
+        color: #aaa;
+    }
+    
+    .foot a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .foot a:hover {
+        color: #f7c08a;
+    }
+
+    .we-write{
+        position: absolute;
+        top: 10px;
+        left: 38vw;
+        color: gray;
+    }
+
+    .send{
+        position: absolute;
+        height: 30px;
+        width: 50vw;
+        background: white;
+        margin: 60px 25vw;
+        border-radius: 30px;
+        padding: 6px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .whole{
+        height: 30px;
+        width: 30px;
+        background: yellow;
+        border-radius: 30px;
+    }
+
+    .icons-so{
+        position: absolute;
+        left: 40vw;
+        top: 130px;
+    }
+
+    .gray-box{
+        margin-top: -15px;
+        margin-left: 60vh;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .gray-1{
+        height: 40vh;
+        width: 20vw;
+        background-color: rgb(255, 253, 253);
+        border-radius: 20px;
+    }
+
+    .icons-2{
+        position: relative;
+        bottom: 120px;
+        left: 250px;
+        gap: 30px;
+    }
+
+    .lids{
+        position: absolute;
+        bottom: 10px;
+        left: 8px;
+    }
+
+    .gray-box2{
+        z-index: 1;
+        margin-top: 360px;
+        margin-left: 60vh;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+    }
+
+    .terminal{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .tem{
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .star-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-top: 110px;
+        padding: 40px;
+    }
+
+    .box-star{
+        height: 250px;
+        width: 250px;
+        background-color: #f1eded;
+        border-radius: 20px;
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+    }
+
+    .jane{
+        margin: 20px;
+        height: 40px;
+        width: 40px;
+        border-radius: 30px;
+        background-color: #333;
+
+    }
